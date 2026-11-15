@@ -8,6 +8,6 @@ Landing page de **Cómo mejorar tu inglés con inteligencia artificial**, con el
 
 ## Cloudflare Workers Builds
 
-Conecta este repositorio desde **Workers & Pages → autumn-poetry-0404 → Settings → Builds**. Selecciona `main` como rama de producción. Usa `node build.cjs` como comando de compilación y `npx wrangler deploy` como comando de despliegue. El directorio raíz es la raíz del repositorio. El nombre de `wrangler.jsonc` coincide con el Worker existente.
+El Worker `autumn-poetry-0404` está conectado a este repositorio. Los commits que llegan a `main` inician la compilación con `node build.cjs` y el despliegue con `npx wrangler deploy` desde la raíz del repositorio. Consulta el resultado en **Workers & Pages → autumn-poetry-0404 → Deployments**.
 
-Antes del primer despliegue, verifica que estén disponibles el video, las imágenes y el enlace de Hotmart. Para cambios posteriores, crea una rama de trabajo. Si están habilitadas las vistas previas en Builds, prueba la versión de esa rama antes de integrarla en `main`.
+Para revisar un cambio, crea una rama de trabajo. Comprueba el video, las imágenes y el enlace de Hotmart. Si están habilitadas las vistas previas en Builds, prueba la versión de esa rama antes de integrarla en `main`.
