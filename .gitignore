@@ -1,0 +1,8 @@
+.DS_Store
+Thumbs.db
+*.zip
+node_modules/
+*.log
+/Curso_IA_Promocional.mp4
+/dist/
+/.wrangler/
